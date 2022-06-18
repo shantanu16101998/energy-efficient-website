@@ -6,14 +6,14 @@ import NewsCard from "./NewsCard";
 function Homepage() {
   return (
     <>
-      <div className="header">
+      <div className="unfriendly-header">
         <Typography variant="h4">Latest News Of Financial Times</Typography>
       </div>
-      <div className="container">
-        <div className="container-header">
+      <div className="unfriendly-container">
+        <div className="unfriendly-container-header">
           
         </div>
-        <div className="container-body">
+        <div className="unfriendly-container-body">
           <NewsCard 
             title={'Stock Market'}
             description={'see the latest news about the stock market'}

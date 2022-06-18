@@ -1,4 +1,4 @@
-.header {
+.unfriendly-header {
     background-color:  #04003f;
     color: #ffffff;
     width: 100vw;
@@ -8,7 +8,7 @@
     align-items: center;
 }
 
-.container {
+.unfriendly-container {
     // padding-top: 50px;
     height: 90vh;
     width: 100vw;
@@ -25,7 +25,7 @@
 
 }
 
-.container-body {
+.unfriendly-container-body {
     min-height: 80vh;
     width: 70vw;
     background-color: #ffffff;
@@ -40,7 +40,7 @@
     flex-wrap: wrap;
 }
 
-.news-container-body {
+.unfriendly-news-container-body {
     height: 80vh;
     width: 70vw;
     background-color: #ffffff;

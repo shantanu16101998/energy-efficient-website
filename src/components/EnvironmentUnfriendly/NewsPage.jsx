@@ -4,12 +4,12 @@ import { Typography } from "@mui/material";
 function NewsPage({ title, description, image }) {
   return (
     <>
-      <div className="header">
+      <div className="unfriendly-header">
         <Typography variant="h4">Latest News Of Financial Times</Typography>
       </div>
-      <div className="container">
+      <div className="unfriendly-container">
         
-        <div className="container-body">
+        <div className="unfriendly-container-body">
           <Typography
             style={{
               fontSize: "30px",
