@@ -20,7 +20,11 @@ function NewsPage({ title, description, image }) {
           >
             {title}
           </Typography>
-          <img src={image} alt="" height={300} width={1000}/>
+          <img src={image} alt="" height={300}
+          style={{
+            width: "70vw",
+          }}
+          />
           <Typography
             style={{
               fontSize: "20px",

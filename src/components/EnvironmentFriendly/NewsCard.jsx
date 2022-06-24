@@ -11,7 +11,8 @@ export default function NewsCard({ title, description, image, url }) {
     <Card
       style={{
         width: "400px",
-        border: "1px solid #4f4b44"
+        border: "1px solid #4f4b44",
+        marginBottom: "30px"
       }}
     >
       <CardMedia

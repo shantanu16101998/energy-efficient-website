@@ -10,6 +10,7 @@ export default function NewsCard({title,description,image,url}) {
   return (
     <Card style={
         {
+          marginBottom: "30px",
             width: '400px',
         }
     }>

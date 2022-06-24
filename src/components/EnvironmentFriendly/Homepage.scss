@@ -1,16 +1,16 @@
 .header {
     background-color:  #000000;
+    padding: 2vh;
     color: #ffffff;
     width: 100vw;
-    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .container {
-    // padding-top: 50px;
-    height: 90vh;
+
+    min-height: 100vh;
     width: 100vw;
     background-color: #181a1b;
     display: flex;
@@ -18,10 +18,8 @@
     align-items: center;
     // background-image: url('https://img.freepik.com/free-photo/growth-business-finance-chart-white-money-stock-graph-data-3d-background-digital-investment-economy-market-profit-financial-banking-graphic-pattern-currency-trading-price-website-wallpaper_79161-2049.jpg?w=2000');
     flex-direction: column;
-    // filter: blur(8px);
-    // -webkit-filter: blur(8px);
+
     background: linear-gradient(blue, rgb(0, 0, 0)) url('https://img.freepik.com/free-photo/growth-business-finance-chart-white-money-stock-graph-data-3d-background-digital-investment-economy-market-profit-financial-banking-graphic-pattern-currency-trading-price-website-wallpaper_79161-2049.jpg?w=2000'); 
-    // leniar-gradient(#000000, #000000);
 
 }
 
